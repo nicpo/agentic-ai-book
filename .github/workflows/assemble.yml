@@ -22,10 +22,21 @@ jobs:
             echo -e "\n\n" >> architecting-ai-agents.md
           done
 
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install md-to-pdf
+        run: npm install -g md-to-pdf
+
+      - name: Convert to PDF
+        run: md-to-pdf architecting-ai-agents.md architecting-ai-agents.pdf --stylesheet book.css
+
       - name: Commit result
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add architecting-ai-agents.md
-          git diff --staged --quiet || git commit -m "Build architecting-ai-agents.md from chapters"
+          git add architecting-ai-agents.md architecting-ai-agents.pdf
+          git diff --staged --quiet || git commit -m "Build architecting-ai-agents.md from chapters and convert to PDF"
           git push

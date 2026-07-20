@@ -1,3 +1,16 @@
+---
+pdf_options:
+  format: Letter
+  printBackground: true
+  displayHeaderFooter: true
+  headerTemplate: |-
+    <span></span>
+  footerTemplate: |-
+    <section style="font-size: 9px; width: 100%; text-align: center; color: #888;">
+      <span class="pageNumber"></span>
+    </section>
+---
+
 # Architecting AI Agents: Building, Evaluating, and Shipping Agentic AI Systems
 
 *A practical guide for current and aspiring AI architects, with a full interview-prep companion*
@@ -36,4 +49,4 @@ This book is for engineers and researchers building, evaluating, and shipping ag
 - **Embeddings and vector similarity:** what an embedding is and why nearest-neighbor search over embeddings powers retrieval.
 - **Prompting fundamentals:** system vs. user messages, few-shot examples, and structured (JSON) output.
 - **General software engineering:** APIs, JSON, async/concurrency at a conceptual level, and reading a stack trace or log.
-- **Basic ML training vocabulary:** supervised vs. reinforcement learning, fine-tuning, and preference data.
+- **Basic ML training vocabulary:** supervised vs. reinforcement learning, fine-tuning, and preference data (needed for the alignment material in Chapter 10).
