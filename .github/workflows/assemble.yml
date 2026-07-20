@@ -31,7 +31,7 @@ jobs:
         run: npm install -g md-to-pdf
 
       - name: Convert to PDF
-        run: md-to-pdf architecting-ai-agents.md architecting-ai-agents.pdf --stylesheet book.css
+        run: md-to-pdf architecting-ai-agents.md --stylesheet book.css  --launch-options '{"args":["--no-sandbox","--disable-setuid-sandbox"]}'
 
       - name: Commit result
         run: |
