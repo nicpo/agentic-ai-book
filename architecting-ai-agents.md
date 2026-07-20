@@ -1,3 +1,16 @@
+---
+pdf_options:
+  format: Letter
+  printBackground: true
+  displayHeaderFooter: true
+  headerTemplate: |-
+    <span></span>
+  footerTemplate: |-
+    <section style="font-size: 9px; width: 100%; text-align: center; color: #888;">
+      <span class="pageNumber"></span>
+    </section>
+---
+
 # Architecting AI Agents: Building, Evaluating, and Shipping Agentic AI Systems
 
 *A practical guide for current and aspiring AI architects, with a full interview-prep companion*
@@ -36,7 +49,7 @@ This book is for engineers and researchers building, evaluating, and shipping ag
 - **Embeddings and vector similarity:** what an embedding is and why nearest-neighbor search over embeddings powers retrieval.
 - **Prompting fundamentals:** system vs. user messages, few-shot examples, and structured (JSON) output.
 - **General software engineering:** APIs, JSON, async/concurrency at a conceptual level, and reading a stack trace or log.
-- **Basic ML training vocabulary:** supervised vs. reinforcement learning, fine-tuning, and preference data.
+- **Basic ML training vocabulary:** supervised vs. reinforcement learning, fine-tuning, and preference data (needed for the alignment material in Chapter 10).
 
 
 
@@ -2623,7 +2636,7 @@ Strong answer: technical fundamentals (systems thinking, debugging instinct, und
 
 **A10.12** Incident response: (1) Identify scope: which tasks are affected, since when. (2) Halt the affected agent version if behavior is harmful. (3) Pull the audit log for the affected period; identify which actions were taken. (4) Determine whether any harmful or irreversible actions occurred; execute rollback procedures where possible. (5) Root cause analysis: diff the tool dependency version against the previous known-good version. (6) Fix: either pin the previous tool version or update the agent to work correctly with the new version. (7) Re-run eval suite on the fixed version. (8) Document the incident and update the runbook.
 
-**A10.13** First, name the distinction . *Constitutional AI* in its original sense (Bai et al., 2022) is a training-time alignment method: an RLAIF pipeline in which a written constitution drives the model to critique and revise its own outputs, and those revisions/preferences become the training signal that shapes the model's weights. What you deploy in an agent is a *runtime* pattern **inspired by** that idea — call it runtime self-critique or a reflection guardrail — where, rather than checking outputs after the fact, the agent evaluates its own planned actions against a set of operating principles before executing them. It changes no weights; it is a guardrail inside the agent loop. This runtime check differs from output filtering — which pattern-matches the generated text — because it reasons about intent and context: "Would sending this email on behalf of the user without their explicit approval violate the principle that I must not communicate with third parties without confirmation?" Output filtering would not catch this if the email content itself is benign. For a calendar/email agent, implementation: (1) Define the constitution: "I must not send external emails without explicit per-message user approval. I must not share calendar details with anyone not already a meeting participant. I may create or delete calendar events only if the user confirmed this action type in the current session." (2) At each planned action step, insert a self-critique prompt: "Review this planned action against your operating principles. If any principle is violated or unclear, state which one and request clarification rather than proceeding." (3) Log the self-critique output alongside the action for auditability. (4) Combine with output filtering and approval gates — constitutional self-critique is an additional layer, not a replacement for other controls.
+**A10.13** First, name the distinction. *Constitutional AI* in its original sense (Bai et al., 2022) is a training-time alignment method: an RLAIF pipeline in which a written constitution drives the model to critique and revise its own outputs, and those revisions/preferences become the training signal that shapes the model's weights. What you deploy in an agent is a *runtime* pattern **inspired by** that idea — call it runtime self-critique or a reflection guardrail — where, rather than checking outputs after the fact, the agent evaluates its own planned actions against a set of operating principles before executing them. It changes no weights; it is a guardrail inside the agent loop. This runtime check differs from output filtering — which pattern-matches the generated text — because it reasons about intent and context: "Would sending this email on behalf of the user without their explicit approval violate the principle that I must not communicate with third parties without confirmation?" Output filtering would not catch this if the email content itself is benign. For a calendar/email agent, implementation: (1) Define the constitution: "I must not send external emails without explicit per-message user approval. I must not share calendar details with anyone not already a meeting participant. I may create or delete calendar events only if the user confirmed this action type in the current session." (2) At each planned action step, insert a self-critique prompt: "Review this planned action against your operating principles. If any principle is violated or unclear, state which one and request clarification rather than proceeding." (3) Log the self-critique output alongside the action for auditability. (4) Combine with output filtering and approval gates — constitutional self-critique is an additional layer, not a replacement for other controls.
 
 ---
 
