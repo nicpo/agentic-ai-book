@@ -40,6 +40,12 @@ pdf_options:
 
 ---
 
+**The most up-to-date version of this book is available at [github.com/nicpo/agentic-ai-book](https://github.com/nicpo/agentic-ai-book)**.
+
+<small>Version 2026.07</small>
+
+---
+
 ## What We Assume You Already Know
 
 This book is for engineers and researchers building, evaluating, and shipping agentic AI systems. Chapters 1-13 are the core guide, and Interview Appendices A-B are a companion for using this material to prepare for an agentic AI interview. Either way, this is not a from-scratch introduction to machine learning. To get full value, you should already be comfortable with the following.
