@@ -158,7 +158,6 @@ In practice, a reasoning model can be the cognitive core of an agent loop. The a
 
 - Anthropic (2024). "Building Effective Agents". https://www.anthropic.com/engineering/building-effective-agents
 - DeepSeek-AI, Guo, D., et al. (2025). "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning" https://arxiv.org/abs/2501.12948
-- Yao, S., Zhao, J., et al. (2022). "ReAct: Synergizing Reasoning and Acting in Language Models". https://arxiv.org/abs/2210.03629
 
 
 
@@ -311,10 +310,6 @@ In practice, ToT multiplies model calls: generating and evaluating multiple cand
 
 - Chen, Y., Benton, J., et al. (2025). "Reasoning Models Don't Always Say What They Think". [https://arxiv.org/abs/2505.05410](https://arxiv.org/abs/2505.05410)
 - Shinn, N., Cassano, F., et al. (2023). "Reflexion: Language Agents with Verbal Reinforcement Learning". https://arxiv.org/abs/2303.11366
-- Wei, J., Wang, X., et al. (2022). "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models". https://arxiv.org/abs/2201.11903
-- Yao, S., Zhao, J., et al. (2022). "ReAct: Synergizing Reasoning and Acting in Language Models". https://arxiv.org/abs/2210.03629
-- Yao, S., Yu, D., et al. (2023). "Tree of Thoughts: Deliberate Problem Solving with Large Language Models". https://arxiv.org/abs/2305.10601
-- Zhou, A., Yan, K., et al. (2023). "Language Agent Tree Search Unifies Reasoning, Acting, and Planning in Language Models". https://arxiv.org/abs/2310.04406
 
 
 
@@ -677,12 +672,6 @@ A single-session agent starts fresh each time. A multi-session agent needs to ca
 
 **Q4.12** An agent's vector-based episodic memory contains a stored preference: "User prefers morning flights." Six months later, the user's schedule has changed and they now consistently book afternoon flights. How does the memory system serve stale information, and what strategies would you implement to handle preference drift?
 
-## Further reading
-
-- Chhikara, P., Khant, D., et al. (2025). "Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory". https://arxiv.org/abs/2504.19413
-- Packer, C., Fang, V., et al. (2023). "MemGPT: Towards LLMs as Operating Systems". https://arxiv.org/abs/2310.08560
-- Park, J., O'Brien, J., et al. (2023). "Generative Agents: Interactive Simulacra of Human Behavior". https://arxiv.org/abs/2304.03442
-
 
 
 # Chapter 5: Retrieval-Augmented Generation for Agents
@@ -875,12 +864,6 @@ Model output: "Your XR-7 is covered under the 2-year warranty."
 
 ## Further reading
 
-- Asai, A., Wu, Z., et al. (2023). "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection". https://arxiv.org/abs/2310.11511
-- Cormack, G., Clarke, C., et al. (2009). "Reciprocal Rank Fusion Outperforms Condorcet and Individual Rank Learning Methods". https://cormack.uwaterloo.ca/cormacksigir09-rrf.pdf
-- Gao, L., Ma, X., et al. (2022). "Precise Zero-Shot Dense Retrieval without Relevance Labels". https://arxiv.org/abs/2212.10496
-- Lewis, P., Perez, E., et al. (2020). "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks". https://arxiv.org/abs/2005.11401
-- Malkov, Y., Yashunin, D. (2016). "Efficient and Robust Approximate Nearest Neighbor Search Using Hierarchical Navigable Small World Graphs". https://arxiv.org/abs/1603.09320
-- Robertson, S., Zaragoza, H. (2009). "The Probabilistic Relevance Framework: BM25 and Beyond". https://dl.acm.org/doi/10.1561/1500000019
 - Singh, A., Ehtesham, A., et al. (2025). "Agentic Retrieval-Augmented Generation: A Survey on Agentic RAG" https://arxiv.org/abs/2501.09136
 
 
@@ -1035,9 +1018,6 @@ Multi-agent systems introduce failure modes that do not exist in single-agent sy
 ## Further reading
 
 - Anthropic (2025). "How We Built Our Multi-Agent Research System." https://www.anthropic.com/engineering/built-multi-agent-research-system
-- Du, Y., Li, S., et al. (2023). "Improving Factuality and Reasoning in Language Models through Multiagent Debate". https://arxiv.org/abs/2305.14325
-- Park, J., O'Brien, J., et al. (2023). "Generative Agents: Interactive Simulacra of Human Behavior". https://arxiv.org/abs/2304.03442
-- Wu, Q., Bansal, G., et al. (2023). "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation Framework". https://arxiv.org/abs/2308.08155
 
 
 
@@ -1197,12 +1177,9 @@ Landscape as of mid-2026 (the framework ecosystem moves fast, so verify current 
 ## Further reading
 
 - Agent2Agent (A2A) Project. "A2A Protocol Specification". https://a2a-protocol.org/
-- Anthropic. (2024). "Introducing the Model Context Protocol". https://www.anthropic.com/news/model-context-protocol
-- CrewAI Documentation. https://docs.crewai.com/
 - LangChain. "LangGraph Documentation". https://docs.langchain.com/oss/python/langgraph/overview
-- Model Context Protocol. "Specification". https://modelcontextprotocol.io/
+- Model Context Protocol Specification. https://modelcontextprotocol.io/
 - OpenAI. "OpenAI Agents SDK Documentation". https://openai.github.io/openai-agents-python/
-- Wu, Q., Bansal, G., et al. (2023). "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation Framework". https://arxiv.org/abs/2308.08155
 
 
 
@@ -1383,15 +1360,6 @@ For agents that interact with users, simulated users (also called "user simulato
   final:  "Your $59.00 refund has been issued."     [matches golden final answer]
 ```
 
-## Further reading
-
-- Jimenez, C., Yang, J., et al. (2023). "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?". https://arxiv.org/abs/2310.06770
-- Kwa, T., West, B., et al. (2025). "Measuring AI Ability to Complete Long Tasks". https://www.rivista.ai/wp-content/uploads/2025/04/2503.14499v2.pdf
-- Liu, X., Yu, H., et al. (2023). "AgentBench: Evaluating LLMs as Agents". https://arxiv.org/abs/2308.03688
-- Mialon, G., Fourrier, C., et al. (2023). "GAIA: A Benchmark for General AI Assistants". https://arxiv.org/abs/2311.12983
-- Yao, S., Shinn, N., et al. (2024). "τ-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains". https://arxiv.org/abs/2406.12045
-- Zhou, S., Xu, F., et al. (2023). "WebArena: A Realistic Web Environment for Building Autonomous Agents". https://arxiv.org/abs/2307.13854
-
 
 
 # Chapter 9: Failure Modes and Guardrails
@@ -1501,10 +1469,6 @@ def dispatch(tool_call, ctx):
         )
     return fn(**tool_call.args)
 ```
-
-## Further reading
-
-- OWASP. "Top 10 for Large Language Model Applications". https://genai.owasp.org/llm-top-10/
 
 
 
@@ -1675,12 +1639,6 @@ The one-line contrast: Reflexion looks *backward* at what already failed; a Gene
 **Q10.12** A deployed agent begins exhibiting unexpected behavior after a tool dependency was updated. Describe the incident response process.
 
 **Q10.13** Explain constitutional AI as it applies to an autonomous agent. How does it differ from output filtering, and what does it add? Describe how you would implement constitutional self-critique in an agent that manages enterprise calendar and email access.
-
-## Further reading
-
-- Bai, Y., Kadavath, S., et al. (2022). "Constitutional AI: Harmlessness from AI Feedback". https://arxiv.org/abs/2212.08073
-- Greshake, K., Abdelnabi, S., et al. (2023). "Not What You've Signed Up For: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection". https://arxiv.org/abs/2302.12173
-- Lynch, A., Wright, B., et al. (2025). "Agentic Misalignment: How LLMs Could Be Insider Threats". https://www.anthropic.com/research/agentic-misalignment
 
 
 
@@ -1864,13 +1822,6 @@ avg latency/task        4.9 s                 18.3 s
 avg cost/task           $0.021                $0.088
 ```
 
-## Further reading
-
-- Chen, L., Zaharia, M., Zou, J. (2023). "FrugalGPT: How to Use Large Language Models While Reducing Cost and Improving Performance". https://arxiv.org/abs/2305.05176
-- LangChain. "LangSmith Observability Documentation". https://docs.langchain.com/langsmith/observability
-- Ong, I., Almahairi, A., et al. (2024). "RouteLLM: Learning to Route LLMs with Preference Data". https://arxiv.org/abs/2406.18665
-- OpenTelemetry. "Generative AI Semantic Conventions". https://opentelemetry.io/docs/specs/semconv/gen-ai/
-
 
 
 # Chapter 12: Model and Architecture Fundamentals (Agent-Relevant Subset)
@@ -1965,14 +1916,6 @@ Examples as of mid-2026. Frontier-Closed: Claude Opus, GPT Sol. Capable-Open: Ll
 
 **Q12.8** Explain prompt caching at the KV-cache level. Why does it reduce input token costs, and under what conditions does it not apply?
 
-## Further reading
-
-- Gu, A., Dao, T. (2023). "Mamba: Linear-Time Sequence Modeling with Selective State Spaces". https://arxiv.org/abs/2312.00752
-- Hong, K., Troynikov, A., Huber, J. (2025). "Context Rot: How Increasing Input Tokens Impacts LLM Performance". https://research.trychroma.com/context-rot
-- Liu, N., Lin, K., et al. (2023). "Lost in the Middle: How Language Models Use Long Contexts". https://arxiv.org/abs/2307.03172
-- Su, J., Lu, Y., et al. (2021). "RoFormer: Enhanced Transformer with Rotary Position Embedding". https://arxiv.org/abs/2104.09864
-- Vaswani, A., Shazeer, N., et al. (2017). "Attention Is All You Need". https://arxiv.org/abs/1706.03762
-
 
 
 # Chapter 13: Platform Thinking and Scale
@@ -2040,10 +1983,6 @@ The gap between a research prototype and a production platform is often underest
 **Q13.6** An enterprise customer requires that their agents' data never comingle with other tenants' data, even at the storage layer. What architecture changes does this require, and what is the cost?
 
 **Q13.7** How do you attribute token costs to individual tenants in a shared LLM infrastructure? What granularity would you track, and how would you surface this to tenants?
-
-## Further reading
-
-- AWS. "Well-Architected Framework: SaaS Lens". https://docs.aws.amazon.com/wellarchitected/latest/saas-lens/saas-lens.html
 
 
 
