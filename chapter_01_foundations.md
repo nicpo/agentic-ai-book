@@ -97,4 +97,3 @@ In practice, a reasoning model can be the cognitive core of an agent loop. The a
 
 - Anthropic (2024). "Building Effective Agents". https://www.anthropic.com/engineering/building-effective-agents
 - DeepSeek-AI, Guo, D., et al. (2025). "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning" https://arxiv.org/abs/2501.12948
-- Yao, S., Zhao, J., et al. (2022). "ReAct: Synergizing Reasoning and Acting in Language Models". https://arxiv.org/abs/2210.03629

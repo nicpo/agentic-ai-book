@@ -188,10 +188,4 @@ Model output: "Your XR-7 is covered under the 2-year warranty."
 
 ## Further reading
 
-- Asai, A., Wu, Z., et al. (2023). "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection". https://arxiv.org/abs/2310.11511
-- Cormack, G., Clarke, C., et al. (2009). "Reciprocal Rank Fusion Outperforms Condorcet and Individual Rank Learning Methods". https://cormack.uwaterloo.ca/cormacksigir09-rrf.pdf
-- Gao, L., Ma, X., et al. (2022). "Precise Zero-Shot Dense Retrieval without Relevance Labels". https://arxiv.org/abs/2212.10496
-- Lewis, P., Perez, E., et al. (2020). "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks". https://arxiv.org/abs/2005.11401
-- Malkov, Y., Yashunin, D. (2016). "Efficient and Robust Approximate Nearest Neighbor Search Using Hierarchical Navigable Small World Graphs". https://arxiv.org/abs/1603.09320
-- Robertson, S., Zaragoza, H. (2009). "The Probabilistic Relevance Framework: BM25 and Beyond". https://dl.acm.org/doi/10.1561/1500000019
 - Singh, A., Ehtesham, A., et al. (2025). "Agentic Retrieval-Augmented Generation: A Survey on Agentic RAG" https://arxiv.org/abs/2501.09136

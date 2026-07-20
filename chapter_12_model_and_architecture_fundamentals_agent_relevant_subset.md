@@ -89,11 +89,3 @@ Examples as of mid-2026. Frontier-Closed: Claude Opus, GPT Sol. Capable-Open: Ll
 **Q12.7** At what point does switching from a closed-source API to a self-hosted open-source model become cost-effective? Describe the calculation.
 
 **Q12.8** Explain prompt caching at the KV-cache level. Why does it reduce input token costs, and under what conditions does it not apply?
-
-## Further reading
-
-- Gu, A., Dao, T. (2023). "Mamba: Linear-Time Sequence Modeling with Selective State Spaces". https://arxiv.org/abs/2312.00752
-- Hong, K., Troynikov, A., Huber, J. (2025). "Context Rot: How Increasing Input Tokens Impacts LLM Performance". https://research.trychroma.com/context-rot
-- Liu, N., Lin, K., et al. (2023). "Lost in the Middle: How Language Models Use Long Contexts". https://arxiv.org/abs/2307.03172
-- Su, J., Lu, Y., et al. (2021). "RoFormer: Enhanced Transformer with Rotary Position Embedding". https://arxiv.org/abs/2104.09864
-- Vaswani, A., Shazeer, N., et al. (2017). "Attention Is All You Need". https://arxiv.org/abs/1706.03762

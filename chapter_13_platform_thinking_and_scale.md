@@ -63,7 +63,3 @@ The gap between a research prototype and a production platform is often underest
 **Q13.6** An enterprise customer requires that their agents' data never comingle with other tenants' data, even at the storage layer. What architecture changes does this require, and what is the cost?
 
 **Q13.7** How do you attribute token costs to individual tenants in a shared LLM infrastructure? What granularity would you track, and how would you surface this to tenants?
-
-## Further reading
-
-- AWS. "Well-Architected Framework: SaaS Lens". https://docs.aws.amazon.com/wellarchitected/latest/saas-lens/saas-lens.html

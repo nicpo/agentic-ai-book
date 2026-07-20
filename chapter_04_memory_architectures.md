@@ -108,9 +108,3 @@ A single-session agent starts fresh each time. A multi-session agent needs to ca
 **Q4.11** Distinguish episodic memory from semantic memory in the context of an AI agent. Give a concrete example of each for a personal assistant agent, and describe how you would implement each in a production system.
 
 **Q4.12** An agent's vector-based episodic memory contains a stored preference: "User prefers morning flights." Six months later, the user's schedule has changed and they now consistently book afternoon flights. How does the memory system serve stale information, and what strategies would you implement to handle preference drift?
-
-## Further reading
-
-- Chhikara, P., Khant, D., et al. (2025). "Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory". https://arxiv.org/abs/2504.19413
-- Packer, C., Fang, V., et al. (2023). "MemGPT: Towards LLMs as Operating Systems". https://arxiv.org/abs/2310.08560
-- Park, J., O'Brien, J., et al. (2023). "Generative Agents: Interactive Simulacra of Human Behavior". https://arxiv.org/abs/2304.03442

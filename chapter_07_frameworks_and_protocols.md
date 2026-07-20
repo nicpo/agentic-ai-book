@@ -154,9 +154,6 @@ Landscape as of mid-2026 (the framework ecosystem moves fast, so verify current 
 ## Further reading
 
 - Agent2Agent (A2A) Project. "A2A Protocol Specification". https://a2a-protocol.org/
-- Anthropic. (2024). "Introducing the Model Context Protocol". https://www.anthropic.com/news/model-context-protocol
-- CrewAI Documentation. https://docs.crewai.com/
 - LangChain. "LangGraph Documentation". https://docs.langchain.com/oss/python/langgraph/overview
-- Model Context Protocol. "Specification". https://modelcontextprotocol.io/
+- Model Context Protocol Specification. https://modelcontextprotocol.io/
 - OpenAI. "OpenAI Agents SDK Documentation". https://openai.github.io/openai-agents-python/
-- Wu, Q., Bansal, G., et al. (2023). "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation Framework". https://arxiv.org/abs/2308.08155

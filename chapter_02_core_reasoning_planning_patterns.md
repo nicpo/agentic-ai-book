@@ -147,7 +147,3 @@ In practice, ToT multiplies model calls: generating and evaluating multiple cand
 
 - Chen, Y., Benton, J., et al. (2025). "Reasoning Models Don't Always Say What They Think". [https://arxiv.org/abs/2505.05410](https://arxiv.org/abs/2505.05410)
 - Shinn, N., Cassano, F., et al. (2023). "Reflexion: Language Agents with Verbal Reinforcement Learning". https://arxiv.org/abs/2303.11366
-- Wei, J., Wang, X., et al. (2022). "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models". https://arxiv.org/abs/2201.11903
-- Yao, S., Zhao, J., et al. (2022). "ReAct: Synergizing Reasoning and Acting in Language Models". https://arxiv.org/abs/2210.03629
-- Yao, S., Yu, D., et al. (2023). "Tree of Thoughts: Deliberate Problem Solving with Large Language Models". https://arxiv.org/abs/2305.10601
-- Zhou, A., Yan, K., et al. (2023). "Language Agent Tree Search Unifies Reasoning, Acting, and Planning in Language Models". https://arxiv.org/abs/2310.04406

@@ -148,6 +148,3 @@ Multi-agent systems introduce failure modes that do not exist in single-agent sy
 ## Further reading
 
 - Anthropic (2025). "How We Built Our Multi-Agent Research System." https://www.anthropic.com/engineering/built-multi-agent-research-system
-- Du, Y., Li, S., et al. (2023). "Improving Factuality and Reasoning in Language Models through Multiagent Debate". https://arxiv.org/abs/2305.14325
-- Park, J., O'Brien, J., et al. (2023). "Generative Agents: Interactive Simulacra of Human Behavior". https://arxiv.org/abs/2304.03442
-- Wu, Q., Bansal, G., et al. (2023). "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation Framework". https://arxiv.org/abs/2308.08155

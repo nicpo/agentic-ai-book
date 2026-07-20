@@ -105,7 +105,3 @@ def dispatch(tool_call, ctx):
         )
     return fn(**tool_call.args)
 ```
-
-## Further reading
-
-- OWASP. "Top 10 for Large Language Model Applications". https://genai.owasp.org/llm-top-10/

@@ -177,10 +177,3 @@ cache hit rate          0.81                   0.07
 avg latency/task        4.9 s                 18.3 s
 avg cost/task           $0.021                $0.088
 ```
-
-## Further reading
-
-- Chen, L., Zaharia, M., Zou, J. (2023). "FrugalGPT: How to Use Large Language Models While Reducing Cost and Improving Performance". https://arxiv.org/abs/2305.05176
-- LangChain. "LangSmith Observability Documentation". https://docs.langchain.com/langsmith/observability
-- Ong, I., Almahairi, A., et al. (2024). "RouteLLM: Learning to Route LLMs with Preference Data". https://arxiv.org/abs/2406.18665
-- OpenTelemetry. "Generative AI Semantic Conventions". https://opentelemetry.io/docs/specs/semconv/gen-ai/

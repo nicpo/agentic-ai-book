@@ -174,12 +174,3 @@ For agents that interact with users, simulated users (also called "user simulato
   step 5  send_confirmation(order_id="A-4471")      [match]
   final:  "Your $59.00 refund has been issued."     [matches golden final answer]
 ```
-
-## Further reading
-
-- Jimenez, C., Yang, J., et al. (2023). "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?". https://arxiv.org/abs/2310.06770
-- Kwa, T., West, B., et al. (2025). "Measuring AI Ability to Complete Long Tasks". https://www.rivista.ai/wp-content/uploads/2025/04/2503.14499v2.pdf
-- Liu, X., Yu, H., et al. (2023). "AgentBench: Evaluating LLMs as Agents". https://arxiv.org/abs/2308.03688
-- Mialon, G., Fourrier, C., et al. (2023). "GAIA: A Benchmark for General AI Assistants". https://arxiv.org/abs/2311.12983
-- Yao, S., Shinn, N., et al. (2024). "τ-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains". https://arxiv.org/abs/2406.12045
-- Zhou, S., Xu, F., et al. (2023). "WebArena: A Realistic Web Environment for Building Autonomous Agents". https://arxiv.org/abs/2307.13854

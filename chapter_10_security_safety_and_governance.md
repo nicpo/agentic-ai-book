@@ -165,9 +165,3 @@ The one-line contrast: Reflexion looks *backward* at what already failed; a Gene
 **Q10.12** A deployed agent begins exhibiting unexpected behavior after a tool dependency was updated. Describe the incident response process.
 
 **Q10.13** Explain constitutional AI as it applies to an autonomous agent. How does it differ from output filtering, and what does it add? Describe how you would implement constitutional self-critique in an agent that manages enterprise calendar and email access.
-
-## Further reading
-
-- Bai, Y., Kadavath, S., et al. (2022). "Constitutional AI: Harmlessness from AI Feedback". https://arxiv.org/abs/2212.08073
-- Greshake, K., Abdelnabi, S., et al. (2023). "Not What You've Signed Up For: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection". https://arxiv.org/abs/2302.12173
-- Lynch, A., Wright, B., et al. (2025). "Agentic Misalignment: How LLMs Could Be Insider Threats". https://www.anthropic.com/research/agentic-misalignment
