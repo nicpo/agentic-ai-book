@@ -1,4 +1,4 @@
-# Chapter 5: Retrieval-Augmented Generation for Agents
+# Chapter 5: RAG (Retrieval-Augmented Generation) for Agents
 
 ## 5.1 RAG, Agentic RAG, and Self-RAG
 
